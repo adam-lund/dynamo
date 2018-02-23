@@ -1,0 +1,6 @@
+useDynLib(dynamo, .registration=TRUE)
+export(fitmodel)
+import(glamlasso)
+import(abind)
+import(MortalitySmooth)
+importFrom(Rcpp, evalCpp)
